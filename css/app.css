@@ -1,0 +1,44 @@
+html {
+	position: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	margin: 50px 0px 5px 0px;
+}
+
+#hero {
+	margin: 0px;
+	background-color: #00FF78;
+	height: 400px;
+}
+
+#bio {
+	width: 800px;
+	margin: 0 auto;
+	height: 400px;
+}
+
+#headshot {
+	border-radius: 125px;
+	float: left;
+	margin-right: 40px;
+}
+
+#projects {
+	background-color: #B27A12;
+	height: 400px;
+}
+
+#background {
+	background-color: #FFA600;	
+}
