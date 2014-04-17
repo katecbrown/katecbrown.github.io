@@ -7,25 +7,30 @@ body {
 	padding: 0px;
 }
 
-h1, h2 {
-	margin: 0 auto;
+h1, h2, h3 {
 	text-align: center;
 }
 
 h1 {
-	margin: 50px 0px 5px 0px;
+	margin: 0px 0px 5px 0px;
+	padding-top: 50px;
+}
+
+h3 {
+	margin: 0px 0px 5px 0px;
+	padding-top: 30px;
 }
 
 #hero {
 	margin: 0px;
 	background-color: #00FF78;
-	height: 400px;
+	height: 460px;
 }
 
 #bio {
+	height: 250px;
 	width: 800px;
 	margin: 0 auto;
-	height: 400px;
 }
 
 #headshot {
