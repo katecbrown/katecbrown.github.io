@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Kate's styles
+
+*/
+
+body {
+	margin: 0 auto;
+	padding: 0px;
+	font-size: 16px;
+	max-width: 800px;
+	font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #333333;
+}
+
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: initial;
+}
+
+h1 {
+	margin: 0px;
+	padding-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 120px;
+	color: #4d3c35;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 30px;
+	margin-top: -11px;
+}
+
+h3 {
+	margin: 0px 0px 5px 0px;
+	padding-top: 30px;
+	font-size: 35px;
+}
+
+p {
+	padding: 0px 10px;
+}
+
+#headshot {
+	border-radius: 125px;
+	float: left;
+	margin-right: 25px;
+	width: 200px;
+}
+
+#bio {
+	margin-top: 40px;
+}
+
