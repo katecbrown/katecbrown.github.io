@@ -86,7 +86,14 @@ h2 {
 h3 {
 	margin: 0px 0px 5px 0px;
 	padding-top: 30px;
-	font-size: 35px;
+	font-size: 25px;
+}
+
+h4 {
+	margin: 0px 0px 5px 0px;
+	padding-top: 30px;
+	font-size: 20px;
+	text-decoration: underline;
 }
 
 p {
@@ -100,8 +107,13 @@ p {
 	width: 200px;
 }
 
-#bio {
+#bio, #work {
 	margin-top: 40px;
+}
+
+#work {
+	margin: 0 auto;
+	max-width: 600px;
 }
 
 @media (max-width: 600px) {
